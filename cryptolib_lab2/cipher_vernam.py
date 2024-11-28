@@ -32,7 +32,7 @@ def cipher_vernam(input_file_name, output_file_name, key, mode):
                 output_file.write(result)
                 count += len(chunk)
 
-            print(f"{'Зашифровано' if mode == 'encode' else 'Расшифровано'} {input_size} байтов в файл {output_file_name}.")
+            # print(f"{'Зашифровано' if mode == 'encode' else 'Расшифровано'} {input_size} байтов в файл {output_file_name}.")
             return True
 
     except IOError as e:

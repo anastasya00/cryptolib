@@ -1,6 +1,6 @@
 import os
 from Crypto.Util import number
-from cryptolib_lab1.crypto_utils import generate_prime, mod_inverse
+from cryptolib_lab1.crypto_utils import mod_inverse
 
 # Генерация RSA-ключей
 def generate_rsa_keys(key_size=2048, key_path='keys'):
